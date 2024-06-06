@@ -3,6 +3,68 @@ folha de estilo site one page
 @author João Victor Gomes Ribeiro
 */
 
-body {
-    background-color: #ff0000;
+/* Importação Google Fonts: */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* CSS RESET */
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
+
+body {
+    font-family:'Opens Sans', sans-serif;
+    font-size: 1em ;
+}
+
+/* Layout */
+.Container {
+    margin: 0 auto;
+    background-color: #7700f0;
+}
+/* Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    body {
+        background-color: #0ff;
+    }
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
+}
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    body {
+        background-color: #ff0;);
+    }
+    /* Layout */
+    .Container {
+        max-width: 720px;
+    }
+}
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    body {
+        background-color: #ff6600;);
+    }
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
+}
+/* Pc >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    body {
+        background-color: #ff0000;);
+    }
+    /* Layout */
+    .Container {
+        max-width: 1140px;
+    }
+}
+
+
